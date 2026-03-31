@@ -6161,6 +6161,7 @@ tests/unit/Core/Content/Product/DataAbstractionLayer/VariantListingConfigTest.ph
 tests/unit/Core/Content/Product/DataAbstractionLayer/ProductIndexerTest.php
 tests/unit/Core/Content/Product/DataAbstractionLayer/StockUpdate/StockUpdateFilterProviderTest.php
 tests/unit/Core/Content/Product/DataAbstractionLayer/StockUpdate/TestStockUpdateFilter.php
+tests/unit/Core/Content/Product/DataAbstractionLayer/SearchKeywordUpdaterTest.php
 tests/unit/Core/Content/Product/DataAbstractionLayer/ProductStreamUpdaterTest.php
 tests/unit/Core/Content/Product/DataAbstractionLayer/CheapestPriceUpdaterTest.php
 tests/unit/Core/Content/Product/DataAbstractionLayer/UpdatedStatesTest.php
@@ -7563,6 +7564,7 @@ tests/unit/Core/Framework/DataAbstractionLayer/Write/Command/WriteTypeIntendExce
 tests/unit/Core/Framework/DataAbstractionLayer/EntityCustomFieldsTraitTest.php
 tests/unit/Core/Framework/DataAbstractionLayer/Telemetry/EntityTelemetrySubscriberTest.php
 tests/unit/Core/Framework/DataAbstractionLayer/EntityTest.php
+tests/unit/Core/Framework/DataAbstractionLayer/Attribute/PasswordTest.php
 tests/unit/Core/Framework/DataAbstractionLayer/FieldType/CronIntervalTest.php
 tests/unit/Core/Framework/DataAbstractionLayer/FieldType/DateIntervalTest.php
 tests/unit/Core/Framework/DataAbstractionLayer/FieldSerializer/UpdatedByFieldSerializerTest.php
@@ -19122,6 +19124,7 @@ src/Core/Framework/DataAbstractionLayer/Facade/RepositoryFacade.php
 src/Core/Framework/DataAbstractionLayer/AttributeEntityDefinition.php
 src/Core/Framework/DataAbstractionLayer/Attribute/PrimaryKey.php
 src/Core/Framework/DataAbstractionLayer/Attribute/State.php
+src/Core/Framework/DataAbstractionLayer/Attribute/Password.php
 src/Core/Framework/DataAbstractionLayer/Attribute/AllowEmptyString.php
 src/Core/Framework/DataAbstractionLayer/Attribute/Version.php
 src/Core/Framework/DataAbstractionLayer/Attribute/Inherited.php
@@ -19132,6 +19135,7 @@ src/Core/Framework/DataAbstractionLayer/Attribute/Serialized.php
 src/Core/Framework/DataAbstractionLayer/Attribute/OneToMany.php
 src/Core/Framework/DataAbstractionLayer/Attribute/ManyToOne.php
 src/Core/Framework/DataAbstractionLayer/Attribute/Translations.php
+src/Core/Framework/DataAbstractionLayer/Attribute/ListField.php
 src/Core/Framework/DataAbstractionLayer/Attribute/ReverseInherited.php
 src/Core/Framework/DataAbstractionLayer/Attribute/CustomFields.php
 src/Core/Framework/DataAbstractionLayer/Attribute/Entity.php
@@ -23326,6 +23330,7 @@ src/Elasticsearch/Resources/config/services.xml
 src/Elasticsearch/Resources/config/packages/test/elasticsearch.yaml
 src/Elasticsearch/Resources/config/packages/elasticsearch.yaml
 src/Elasticsearch/Resources/config/packages/framework.yaml
+src/Elasticsearch/Resources/config/packages/shopware.php
 src/Elasticsearch/Resources/config/packages/monolog.yaml
 src/Elasticsearch/Resources/views/Collector/elasticsearch.html.twig
 src/Elasticsearch/Resources/views/Collector/icon.svg
